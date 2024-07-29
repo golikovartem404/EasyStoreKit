@@ -11,7 +11,7 @@ public enum StoreError: Error {
     case failedVerification
 }
 
-public class Store: ObservableObject {
+public class EasyStoreKit: ObservableObject {
     
     @Published public private(set) var subscriptions: [Product] = []
     @Published public private(set) var purchasedSubscriptions: [Product] = []
